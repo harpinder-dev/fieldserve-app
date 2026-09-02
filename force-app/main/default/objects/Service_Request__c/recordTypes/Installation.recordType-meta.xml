@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Installation</fullName>
+    <active>true</active>
+    <description>Installation Requests</description>
+    <label>Installation</label>
+    <picklistValues>
+        <picklist>Appliance_Type__c</picklist>
+        <values>
+            <fullName>Dishwasher</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dryer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Oven</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Refrigerator</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Washer</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Common_Fault__c</picklist>
+        <values>
+            <fullName>Ice maker broken</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Leaking</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Noisy compressor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Cleaning Dishes Properly</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Drying</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Warming</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not cooling</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ruining Clothes</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Won%27t drain</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Won%27t spin</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Priority__c</picklist>
+        <values>
+            <fullName>Emergency</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>High</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Low</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Medium</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Status__c</picklist>
+        <values>
+            <fullName>Assigned</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cancelled</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Completed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>In Progress</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>
