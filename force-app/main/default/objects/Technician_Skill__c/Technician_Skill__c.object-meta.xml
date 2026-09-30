@@ -155,8 +155,9 @@
     <externalSharingModel>ControlledByParent</externalSharingModel>
     <label>Technician Skill</label>
     <nameField>
+        <displayFormat>A-{0}</displayFormat>
         <label>Technician Skill Name</label>
-        <type>Text</type>
+        <type>AutoNumber</type>
     </nameField>
     <pluralLabel>Technician Skills</pluralLabel>
     <searchLayouts></searchLayouts>
